@@ -13,4 +13,8 @@ public class Calculator {
 	public int divide(int a, int b){
 		return a/b;
 	}
+	
+	public double percentage(double total,double percentage){
+		return ((total*percentage)/100);
+	}
 }
